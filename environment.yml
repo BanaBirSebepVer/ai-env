@@ -1,0 +1,33 @@
+name: ai-env  # Ortamın adını dilediğin gibi değiştirebilirsin
+channels:
+  - defaults
+dependencies:
+  - python=3.12.9
+  - ca-certificates=2024.12.31
+  - openssl=3.0.15
+  - tzdata=2025a
+  - bzip2=1.0.8
+  - xz=5.4.6
+  - zlib=1.2.13
+  - lz4-c=1.9.4
+  - zstd=1.5.6
+  - sqlite=3.45.3
+  - libffi=3.4.4
+  - libiconv=1.16
+  - tk=8.6.14
+  - pip=25.0
+  - setuptools=75.8.0
+  - wheel=0.45.1
+  - certifi=2025.1.31
+  - requests=2.32.3
+  - urllib3=2.3.0
+  - idna=3.7
+  - chardet
+  - tqdm=4.67.1
+  - colorama=0.4.6
+  - rich=13.9.4
+  - pydantic=2.10.3
+  - typing-extensions=4.12.2
+  - cffi=1.17.1
+  - cryptography=43.0.3
+  - pycosat=0.6.6
