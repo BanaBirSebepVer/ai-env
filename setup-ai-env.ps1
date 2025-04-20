@@ -22,7 +22,7 @@ $condaActivate = "$CONDA_DIR\Scripts\activate.bat"
 
 # 2. Ortamı oluşturmak için environment.yml dosyasını indir
 Write-Host "🌐 environment.yml dosyası indiriliyor..."
-Invoke-WebRequest -Uri "https://github.com/BanaBirSebepVer/ai-env/raw/b97a0632c53731e2823cd1d14e60a4da73bb641a/environment.yml" -OutFile "environment.yml"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/BanaBirSebepVer/ai-env/b97a0632c53731e2823cd1d14e60a4da73bb641a/environment.yml" -OutFile "environment.yml"
 
 # 3. Conda ortamını yml dosyasından oluştur
 Write-Host "🛠️ Ortam oluşturuluyor (ai-env)..."
